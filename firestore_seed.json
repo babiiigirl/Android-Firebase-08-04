@@ -1,0 +1,52 @@
+{
+  "movies": [
+    {
+      "id": "movie1",
+      "title": "Avenger: Endgame",
+      "description": "Sau những biến cố tàn khốc của Infinity War, vũ trụ đang trong tình trạng đổ nát. Với sự giúp đỡ của các đồng minh còn lại, Avengers tập hợp một lần nữa để đảo ngược hành động của Thanos và khôi phục lại sự cân bằng cho vũ trụ.",
+      "genre": "Hành động, Viễn tưởng",
+      "durationMinutes": 181,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BMTc5MDE2ODcwNV5BMl5BanBnXkFtZTgwMzI2NzQ2NzM@._V1_SX300.jpg",
+      "rating": 8.4,
+      "isNowShowing": true
+    },
+    {
+      "id": "movie2",
+      "title": "Dune: Part Two",
+      "description": "Paul Atreides đoàn kết với Chani và người Fremen, trong khi đang trên đường trả thù những kẻ âm mưu tiêu diệt gia đình mình.",
+      "genre": "Hành động, Phiêu lưu, Drama",
+      "durationMinutes": 166,
+      "posterUrl": "https://m.media-amazon.com/images/M/MV5BODdjMjM3NGQtZDA5OC00NGE4LWIyZDQtZjYwOGZlMTM5ZTQ1XkEyXkFqcGc@._V1_SX300.jpg",
+      "rating": 8.6,
+      "isNowShowing": true
+    }
+  ],
+  "theaters": [
+    {
+      "id": "CGV_Vincom",
+      "name": "CGV Vincom",
+      "address": "123 Vincom, HN",
+      "city": "Hà Nội"
+    }
+  ],
+  "showtimes": [
+    {
+      "id": "st1",
+      "movieId": "movie1",
+      "theaterId": "CGV_Vincom",
+      "startTime": 1729000000000,
+      "availableSeats": 50,
+      "totalSeats": 50,
+      "price": 120000
+    },
+    {
+      "id": "st2",
+      "movieId": "movie2",
+      "theaterId": "CGV_Vincom",
+      "startTime": 1729040000000,
+      "availableSeats": 50,
+      "totalSeats": 50,
+      "price": 135000
+    }
+  ]
+}
